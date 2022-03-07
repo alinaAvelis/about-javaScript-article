@@ -68,12 +68,11 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     const newData = getDayInfo('18.08.2018');
+    console.log(newData);
   
   } catch(e) {
     console.log(e)
   } 
-
-
 
 });
 
