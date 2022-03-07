@@ -1,0 +1,2 @@
+(()=>{"use strict";window.addEventListener("DOMContentLoaded",(function(){try{!function(){var t=document.querySelector(".btn_to_upp"),e=document.querySelector("body");function o(t){t.classList.add("hide")}o(t),window.addEventListener("scroll",(function(){scrollY<100?o(t):t.classList.remove("hide")})),t.addEventListener("click",(function(){e.scrollIntoView({block:"start",behavior:"smooth"})}))}()}catch(t){console.log(t)}}))})();
+//# sourceMappingURL=bundle.js.map
