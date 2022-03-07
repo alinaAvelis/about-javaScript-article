@@ -1,7 +1,7 @@
 
-function btnToUp() {
-    const btn = document.querySelector(".btn_to_upp");
-    const container = document.querySelector("body");
+function btnToUp(btnSelector, contsinerSelector) {
+    const btn = document.querySelector(btnSelector);
+    const container = document.querySelector(contsinerSelector);
 
     function hideBtn(button) {
         button.classList.add('hide');
